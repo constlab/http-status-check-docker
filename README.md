@@ -8,4 +8,4 @@ Based on spatie/http-status-check
 
 ## Run
 
-`docker run http-status-check /check "<URL>"`
+`docker run http-status-check check "<URL>"`
