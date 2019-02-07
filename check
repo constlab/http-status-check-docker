@@ -1,8 +1,8 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
 echo "==========================================="
 echo "Run http check"
 echo "Site url: $1"
 echo "==========================================="
 
-~/.composer/vendor/bin/http-status-check --ansi scan $1
+~/.composer/vendor/bin/http-status-check --ansi scan $@

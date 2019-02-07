@@ -1,11 +1,11 @@
 # http-status-check docker image
 
-Based on spatie/http-status-check
+Based on [spatie/http-status-check](https://github.com/spatie/http-status-check)
 
 ## Build
 
-`docker build -t http-status-check .`
+`docker build -t constlab/http-status-check .`
 
 ## Run
 
-`docker run http-status-check check "<URL>"`
+`docker run constlab/http-status-check check "<URL>"`
